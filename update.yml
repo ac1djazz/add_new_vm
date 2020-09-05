@@ -15,8 +15,8 @@
   hosts: all
   tasks:
     shell: dnf needs-restarting -r ; echo $?
-    args:
-    warn: false
+      args:
+      warn: false
     register: reboot_required_command
 
 - name: Extract return code from output
