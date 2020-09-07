@@ -1,5 +1,4 @@
 - name: Update
   hosts: all
   tasks:
-    - name: try
-    shell: dnf update
+    - shell: dnf update
