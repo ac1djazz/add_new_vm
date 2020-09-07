@@ -1,4 +1,5 @@
 - name: update
+  block:
   hosts: all
   tasks:
     shell: dnf update -y
