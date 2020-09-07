@@ -1,0 +1,4 @@
+- name: Update
+  hosts: all
+  tasks:
+    - shell: dnf -y install epel-release && dnf -y update && dnf -y install ansible
