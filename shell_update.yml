@@ -1,5 +1,5 @@
-- name: update
-  block:
+- name: Update
   hosts: all
   tasks:
-    shell: dnf update -y
+    - name: try
+        shell: dnf update -y
